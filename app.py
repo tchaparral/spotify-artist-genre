@@ -12,7 +12,7 @@ artist_name = st.text_input("Enter the artist name:")
 # Search Button
 if st.button("Search Genres"):
     if artist_name:
-        genres = get_artist_genre(artist_name)  # Sua função existente
+        genres = get_artist_genre(artist_name)
         if genres:
             st.success(f"Genres for {artist_name}: {', '.join(genres)}")
         else:

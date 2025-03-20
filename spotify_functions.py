@@ -33,6 +33,7 @@ def get_access_token():
         print(f'Error: {response.status_code}')
         return None
 
+# creating a token
 SPOTIFY_API_URL = 'https://api.spotify.com/v1'
 ACCESS_TOKEN = get_access_token()
 
