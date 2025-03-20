@@ -35,7 +35,8 @@ This application allows users to input an artist's name and retrieves the associ
     - Rename the .env_example file to .env
     ```bash    
     mv .env_example .env
-    - Open the .env file and replace the placeholders with your Spotify API credentials:
+    ```    
+    - Open the .env file and replace the placeholders with your Spotify API credentials:    
     ```bash
     CLIENT_ID = 'your_client_id_here'
     CLIENT_SECRET = 'your_client_secret_here'
