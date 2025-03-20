@@ -32,10 +32,10 @@ This application allows users to input an artist's name and retrieves the associ
     ```bash
     pip install -r requirements.txt
 4. **Set Up Environment Variables**:
-    <li>Rename the .env_example file to .env
+    - Rename the .env_example file to .env
     ```bash    
     mv .env_example .env
-    <li>Open the .env file and replace the placeholders with your Spotify API credentials:
+    - Open the .env file and replace the placeholders with your Spotify API credentials:
     ```bash
     CLIENT_ID = 'your_client_id_here'
     CLIENT_SECRET = 'your_client_secret_here'
